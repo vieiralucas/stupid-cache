@@ -12,6 +12,7 @@ const set = (key, value, ttl = Infinity) => {
 
 const get = key => {
   const val = storage.get(key);
+
   if (val !== undefined && (Date.now() - val.time <= val.ttl)) {
     return val.value;
   }
@@ -19,7 +20,12 @@ const get = key => {
   return undefined;
 };
 
+const del = key => storage.delete(key);
+const clear = () => storage.clear();
+
 module.exports = {
   get: get,
-  set
+  set,
+  del,
+  clear
 };
