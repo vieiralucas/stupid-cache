@@ -1,0 +1,24 @@
+{
+  "name": "stupid-cache",
+  "version": "0.0.0",
+  "description": "A stupid cache implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vieiralucas/stupid-cache.git"
+  },
+  "keywords": [
+    "cache",
+    "key-value",
+    "stupid"
+  ],
+  "author": "Lucas Vieira <vieiralucas4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vieiralucas/stupid-cache/issues"
+  },
+  "homepage": "https://github.com/vieiralucas/stupid-cache#readme"
+}
