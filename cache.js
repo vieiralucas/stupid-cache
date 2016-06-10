@@ -13,8 +13,14 @@ const set = (key, value, ttl = Infinity) => {
 const get = key => {
   const val = storage.get(key);
 
-  if (val !== undefined && (Date.now() - val.time <= val.ttl)) {
-    return val.value;
+  if (val !== undefined) {
+    const isAlive = Date.now() - val.time <= val.ttl;
+
+    if (isAlive) {
+      return val.value;
+    } else {
+      storage.delete(key);
+    }
   }
 
   return undefined;
