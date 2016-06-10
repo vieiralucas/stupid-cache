@@ -4,7 +4,7 @@
   "description": "A stupid cache implementation",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node tests.js"
   },
   "repository": {
     "type": "git",
