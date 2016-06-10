@@ -2,7 +2,7 @@
   "name": "stupid-cache",
   "version": "0.0.1",
   "description": "A stupid cache implementation",
-  "main": "index.js",
+  "main": "cache.js",
   "scripts": {
     "test": "node tests.js"
   },
