@@ -2,7 +2,7 @@
 A stupid cache implementation
 
 ```javascript
-const cache = require('cache');
+const cache = require('stupid-cache');
 
 const ttl = 1000 * 60 * 60 * 2; // 2 hours
 // set value
