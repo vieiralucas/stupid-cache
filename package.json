@@ -1,6 +1,6 @@
 {
   "name": "stupid-cache",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A stupid cache implementation",
   "main": "dist/cache.js",
   "scripts": {
