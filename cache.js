@@ -1,3 +1,5 @@
+'use strict';
+
 let storage = new Map();
 
 const set = (key, value, ttl = Infinity) => {
